@@ -84,3 +84,4 @@ jobs:
           password: ${{ secrets.FTP_DEV_PASS }}
           server-dir: /htdocs/
           local-dir: ./custom-index/
+          dangerous-clean-slate: false
