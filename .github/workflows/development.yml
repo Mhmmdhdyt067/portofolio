@@ -44,13 +44,12 @@ jobs:
       run: php artisan key:generate
     - name: Run Style Fixer
       run: ./vendor/bin/pint
-    - name: Upload Laravel core to /htdocs
+    - name: Upload Laravel core
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_DEV_HOST }}
         username: ${{ secrets.FTP_DEV_USER }}
         password: ${{ secrets.FTP_DEV_PASS }}
-        server-dir: /htdocs/portofolio/
         exclude: |
           public/**
           .git*
@@ -75,13 +74,3 @@ jobs:
           .git*
           hot
 
-      # 3. Upload index.php yang sudah dimodifikasi (custom)
-    - name: Upload index.php ke root
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-          server: ${{ secrets.FTP_DEV_HOST }}
-          username: ${{ secrets.FTP_DEV_USER }}
-          password: ${{ secrets.FTP_DEV_PASS }}
-          server-dir: /htdocs/
-          local-dir: ./custom-index/
-          dangerous-clean-slate: false
