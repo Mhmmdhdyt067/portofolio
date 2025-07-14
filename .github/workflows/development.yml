@@ -42,45 +42,38 @@ jobs:
       run: chmod -R 777 storage bootstrap/cache
     - name: Generate key
       run: php artisan key:generate
-    - name: Clear cache
-      run: php artisan cache:clear
-    - name: Configuration caching
-      run: php artisan config:cache
-    - name: Route caching
-      run: php artisan route:cache
-    - name: Clear view
-      run: php artisan view:clear
     - name: Run Style Fixer
       run: ./vendor/bin/pint
-    - name: Upload Laravel (tanpa folder public)
+    - name: Upload Laravel core to /htdocs
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-          server: ${{ secrets.FTP_DEV_HOST }}
-          username: ${{ secrets.FTP_DEV_USER }}
-          password: ${{ secrets.FTP_DEV_PASS }}
-          server-dir: /htdocs/
-          exclude: |
-            public/**
-            **/.git*
-            **/node_modules/**
-            **/vendor/**
-            **/.phpunit.cache/**
-            **/storage/logs/**
-            **/storage/debugbar/**
-            **/storage/clockwork/**
-            **/storage/framework/cache/data/**
-            bootstrap/cache/config.php
-            .env
+        server: ${{ secrets.FTP_DEV_HOST }}
+        username: ${{ secrets.FTP_DEV_USER }}
+        password: ${{ secrets.FTP_DEV_PASS }}
+        server-dir: /htdocs/portofolio/
+        exclude: |
+          public/**
+          .git*
+          node_modules/**
+          vendor/**
+          .env
+          storage/logs/**
+          storage/debugbar/**
+          storage/framework/cache/data/**
+          bootstrap/cache/config.php
 
       # 2. Upload isi folder public/ ke root FTP (htdocs)
-    - name: Upload isi folder public
+    - name: Upload /public contents to /htdocs/
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-          server: ${{ secrets.FTP_DEV_HOST }}
-          username: ${{ secrets.FTP_DEV_USER }}
-          password: ${{ secrets.FTP_DEV_PASS }}
-          server-dir: /htdocs/
-          local-dir: public/
+        server: ${{ secrets.FTP_DEV_HOST }}
+        username: ${{ secrets.FTP_DEV_USER }}
+        password: ${{ secrets.FTP_DEV_PASS }}
+        local-dir: public/
+        server-dir: /htdocs/
+        exclude: |
+          .git*
+          hot
 
       # 3. Upload index.php yang sudah dimodifikasi (custom)
     - name: Upload index.php ke root
