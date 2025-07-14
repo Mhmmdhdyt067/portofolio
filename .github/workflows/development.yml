@@ -52,22 +52,42 @@ jobs:
       run: php artisan view:clear
     - name: Run Style Fixer
       run: ./vendor/bin/pint
-    - name: Upload FTP Dev
+    - name: Upload Laravel (tanpa folder public)
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ${{ SECRETS.FTP_DEV_HOST }}
-        username: ${{ SECRETS.FTP_DEV_USER }}
-        password: ${{ SECRETS.FTP_DEV_PASS }}
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
-          **/vendor/**
-          **/.phpunit.cache/**
-          **/storage/logs/**
-          **/storage/debugbar/**
-          **/storage/clockwork/**
-          **/storage/framework/cache/data/**
-          .env
-          bootstrap/cache/config.php
-          public/hot
+          server: ${{ secrets.FTP_DEV_HOST }}
+          username: ${{ secrets.FTP_DEV_USER }}
+          password: ${{ secrets.FTP_DEV_PASS }}
+          server-dir: /htdocs/
+          exclude: |
+            public/**
+            **/.git*
+            **/node_modules/**
+            **/vendor/**
+            **/.phpunit.cache/**
+            **/storage/logs/**
+            **/storage/debugbar/**
+            **/storage/clockwork/**
+            **/storage/framework/cache/data/**
+            bootstrap/cache/config.php
+            .env
+
+      # 2. Upload isi folder public/ ke root FTP (htdocs)
+    - name: Upload isi folder public
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+          server: ${{ secrets.FTP_DEV_HOST }}
+          username: ${{ secrets.FTP_DEV_USER }}
+          password: ${{ secrets.FTP_DEV_PASS }}
+          server-dir: /htdocs/
+          local-dir: public/
+
+      # 3. Upload index.php yang sudah dimodifikasi (custom)
+    - name: Upload index.php ke root
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+          server: ${{ secrets.FTP_DEV_HOST }}
+          username: ${{ secrets.FTP_DEV_USER }}
+          password: ${{ secrets.FTP_DEV_PASS }}
+          server-dir: /htdocs/
+          local-dir: ./custom-index/
