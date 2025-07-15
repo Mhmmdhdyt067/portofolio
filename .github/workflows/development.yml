@@ -36,6 +36,8 @@ jobs:
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+    - name: Setting up file storage
+      run: php artisan storage:link
     - name: Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
     - name: Generate key
