@@ -85,7 +85,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>About</h2>
-                <p>Seorang Pelajar yang mencoba menjadi Freelancer di kala sedang libur semester membuka usaha yang bergerak di bidang penyediaan Jasa untuk melakukan tugas yang berkaitan dengan teknologi.</p>
+                <p>Saya adalah seorang pelajar yang aktif mengembangkan keterampilan di bidang teknologi, khususnya dalam pengembangan web. Saat ini saya juga menjalankan usaha freelance yang menyediakan berbagai layanan berbasis teknologi, mulai dari jasa pembuatan website, desain dokumen, hingga digitalisasi berkas. Misi saya adalah memberikan solusi digital yang efisien dan profesional bagi individu maupun bisnis.</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -97,13 +97,13 @@
                     <div class="col-lg-8 content">
                         <h2>Pelajar &amp; Web Developer.</h2>
                         <p class="fst-italic py-3">
-                            Sedang on going menempuh pendidikan di Universitas Haluoleo Program Studi Ilmu Komputer (21).
+                            Sedang on going menempuh pendidikan di Universitas Haluoleo Program Studi Ilmu Komputer (S1).
                         </p>
                         <div class="row">
                             <div class="col-lg-6">
                                 <ul>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>6 May 2007</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www..com</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>http://hidayat.byethost16.com/</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+628 2187 2807 79</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kendari, Indonesia</span></li>
                                 </ul>
@@ -137,8 +137,8 @@
                     <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
                         <i class="bi bi-emoji-smile"></i>
                         <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="100+" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Happy Clients</p>
+                            <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Clients</p>
                         </div>
                     </div><!-- End Stats Item -->
 
@@ -153,8 +153,8 @@
                     <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
                         <i class="bi bi-headset"></i>
                         <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Hours Of Support</p>
+                            <span data-purecounter-start="0" data-purecounter-end="463" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Jam Terbang</p>
                         </div>
                     </div><!-- End Stats Item -->
 
@@ -162,7 +162,7 @@
                         <i class="bi bi-people"></i>
                         <div class="stats-item">
                             <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Hard Workers</p>
+                            <p>Workers</p>
                         </div>
                     </div><!-- End Stats Item -->
 
@@ -178,7 +178,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Skills</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>Saya memiliki keterampilan dibidang Teknologi, Survival, dan Leadership</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -188,23 +188,23 @@
                     <div class="col-lg-6">
 
                         <div class="progress">
-                            <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div><!-- End Skills Item -->
-
-                        <div class="progress">
-                            <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                            <span class="skill"><span>Web Developing</span> <i class="val">90%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div><!-- End Skills Item -->
 
                         <div class="progress">
-                            <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+                            <span class="skill"><span>Desain Grafis</span> <i class="val">80%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Microsoft Office</span> <i class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div><!-- End Skills Item -->
 
@@ -213,23 +213,23 @@
                     <div class="col-lg-6">
 
                         <div class="progress">
-                            <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
+                            <span class="skill"><span>Public Speaking</span> <i class="val">80%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div><!-- End Skills Item -->
 
                         <div class="progress">
-                            <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
+                            <span class="skill"><span>Leadership</span> <i class="val">90%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div><!-- End Skills Item -->
 
                         <div class="progress">
-                            <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
+                            <span class="skill"><span>Survival</span> <i class="val">75%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div><!-- End Skills Item -->
 
@@ -247,7 +247,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Resume</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>Berikut adalah ringkasan pendidikan dan pengalaman saya di bidang teknologi informasi, pengembangan web, dan berbagai layanan digital. Saya selalu berkomitmen untuk terus belajar dan berkembang demi memberikan hasil terbaik dalam setiap proyek.</p>
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -258,55 +258,58 @@
                         <h3 class="resume-title">Sumary</h3>
 
                         <div class="resume-item pb-0">
-                            <h4>Brandon Johnson</h4>
-                            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                            <h4>Muhammad Hidayat</h4>
+                            <p><em>Pelajar aktif dan freelance web developer dengan pengalaman dalam membuat website, aplikasi berbasis web, serta berbagai layanan digital seperti desain dokumen, konversi berkas, dan manajemen konten.</em></p>
                             <ul>
-                                <li>Portland par 127,Orlando, FL</li>
-                                <li>(123) 456-7891</li>
-                                <li>alice.barkley@example.com</li>
+                                <li>Kendari, Sulawesi Tenggara, Indonesia</li>
+                                <li>(+62) 821-8728-0779</li>
+                                <li>muhhidayat050607@gmail.com</li>
                             </ul>
                         </div><!-- Edn Resume Item -->
 
                         <h3 class="resume-title">Education</h3>
                         <div class="resume-item">
-                            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2015 - 2016</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                            <h4>SMK Negeri 06 Kendari</h4>
+                            <h5>2022 - 2025</h5>
+                            <p><em>Rekayasa Perangkat Lunak</em></p>
+                            <p>Mempelajari pengembangan perangkat lunak, desain UI/UX, basis data, pemrograman web, dan manajemen proyek TI. Aktif dalam berbagai proyek internal dan kegiatan ekstrakurikuler.</p>
                         </div><!-- Edn Resume Item -->
 
                         <div class="resume-item">
-                            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2010 - 2014</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+                            <h4>Universitas Haluoleo</h4>
+                            <h5>On Going</h5>
+                            <p><em>Ilmu Komputer (S1)</em></p>
+                            <p>Menempuh pendidikan di Program Studi Ilmu Komputer dengan fokus pada pemrograman, pengembangan perangkat lunak, keamanan sistem informasi, dan teknologi web. Aktif mengembangkan proyek berbasis Laravel serta mengikuti kegiatan akademik dan organisasi kampus.</p>
                         </div><!-- Edn Resume Item -->
 
                     </div>
 
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                        <h3 class="resume-title">Professional Experience</h3>
+                        <h3 class="resume-title">PENGALAMAN</h3>
                         <div class="resume-item">
-                            <h4>Senior graphic design specialist</h4>
+                            <h4>Workers</h4>
                             <h5>2019 - Present</h5>
-                            <p><em>Experion, New York, NY </em></p>
+                            <p><em>SCOTHCOMPUTER, Konawe Selatan, Sulawesi Tenggara </em></p>
                             <ul>
-                                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                                <li>Menerima dan menangani berbagai permintaan layanan dari klien, mulai dari pengetikan hingga desain.</li>
+                                <li>Mengetik dan memformat dokumen menggunakan Microsoft Word, Excel, dan PowerPoint sesuai kebutuhan pengguna.</li>
+                                <li>Merancang berbagai kebutuhan desain seperti banner, baliho, poster, dan undangan menggunakan aplikasi desain grafis.</li>
+                                <li>Melakukan pemindaian (scan) berkas-berkas penting serta mengelola digitalisasi dokumen secara rapi dan aman.</li>
+                                <li>Menangani kebutuhan fotokopi dan memastikan hasil cetak yang sesuai standar kualitas layanan.</li>
                             </ul>
                         </div><!-- Edn Resume Item -->
 
                         <div class="resume-item">
-                            <h4>Graphic design specialist</h4>
-                            <h5>2017 - 2018</h5>
-                            <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                            <h4>Internship Proggramer</h4>
+                            <h5>2024</h5>
+                            <p><em>TECHNO'S STUDIO, Kendari, Sulawesi Tenggara</em></p>
                             <ul>
-                                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                                <li>Merancang dan membangun sistem website sesuai kebutuhan klien menggunakan framework Laravel dan teknologi web modern.</li>
+                                <li>Membuat alur sistem (flowchart) dan arsitektur aplikasi untuk mempermudah pengembangan dan dokumentasi.</li>
+                                <li>Merancang struktur dan skema database, serta melakukan optimasi query untuk performa sistem.</li>
+                                <li>Membuat tampilan antarmuka (UI/UX) yang responsif dan user-friendly menggunakan Bootstrap dan CSS modern.</li>
+                                <li>Menangani pengembangan baik sisi frontend maupun backend dari awal hingga penyelesaian proyek.</li>
+                                <li>Melakukan uji coba dan debugging untuk memastikan aplikasi berjalan sesuai fungsi yang diharapkan.</li>
                             </ul>
                         </div><!-- Edn Resume Item -->
 
@@ -324,7 +327,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Portfolio</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>Kumpulan hasil karya dan proyek yang telah saya kerjakan, mulai dari pengembangan website, desain grafis, hingga layanan digital lainnya. Setiap proyek mencerminkan dedikasi saya dalam memberikan solusi kreatif, fungsional, dan sesuai kebutuhan klien. Saya percaya bahwa kombinasi antara keahlian teknis dan pemahaman kebutuhan pengguna adalah kunci dari setiap karya berkualitas.</p>
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -333,9 +336,9 @@
 
                     <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-product">Card</li>
-                        <li data-filter=".filter-branding">Web</li>
+                        <li data-filter=".filter-app">Web</li>
+                        <li data-filter=".filter-product">Design</li>
+                        <li data-filter=".filter-branding">Other</li>
                     </ul><!-- End Portfolio Filters -->
 
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -343,7 +346,7 @@
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                             <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-1.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 1</h4>
+                                <h4>Web 1</h4>
                                 <p>Lorem ipsum, dolor sit</p>
                                 <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-1.jpg')}}" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -353,7 +356,7 @@
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-2.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Product 1</h4>
+                                <h4>Design 1</h4>
                                 <p>Lorem ipsum, dolor sit</p>
                                 <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-2.jpg')}}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -363,7 +366,7 @@
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                             <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-3.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Branding 1</h4>
+                                <h4>Other 1</h4>
                                 <p>Lorem ipsum, dolor sit</p>
                                 <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-3.jpg')}}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -373,7 +376,7 @@
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                             <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-4.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 2</h4>
+                                <h4>Web 2</h4>
                                 <p>Lorem ipsum, dolor sit</p>
                                 <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-4.jpg')}}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -383,7 +386,7 @@
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-5.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Product 2</h4>
+                                <h4>Design 2</h4>
                                 <p>Lorem ipsum, dolor sit</p>
                                 <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-5.jpg')}}" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -393,7 +396,7 @@
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                             <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-6.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Branding 2</h4>
+                                <h4>Other 2</h4>
                                 <p>Lorem ipsum, dolor sit</p>
                                 <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-6.jpg')}}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -403,7 +406,7 @@
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                             <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-7.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 3</h4>
+                                <h4>Web 3</h4>
                                 <p>Lorem ipsum, dolor sit</p>
                                 <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-7.jpg')}}" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -413,7 +416,7 @@
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-8.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Product 3</h4>
+                                <h4>Design 3</h4>
                                 <p>Lorem ipsum, dolor sit</p>
                                 <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-8.jpg')}}" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -423,7 +426,7 @@
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
                             <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-9.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Branding 3</h4>
+                                <h4>Other 3</h4>
                                 <p>Lorem ipsum, dolor sit</p>
                                 <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-9.jpg')}}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
