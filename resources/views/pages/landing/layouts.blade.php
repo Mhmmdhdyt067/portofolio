@@ -344,91 +344,91 @@
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="{{ asset('assets/img/masonry-portfolio/web-1.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/masonry-portfolio/web-1.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-1.jpg')}}" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <h4>Website Portofolio</h4>
+                                <p>Cocok untuk anda yang ingin membuat portofolio perusahaan ataupun branding diri sendiri.</p>
+                                <a href="{{ asset('assets/img/masonry-portfolio/web-1.png')}}" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="http://hidayat.byethost16.com/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-2.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/masonry-portfolio/design-1.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Design 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-2.jpg')}}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                <h4>Design Pamflet & Poster</h4>
+                                <p>Design Profesional & Enak dilihat mata dan Printable</p>
+                                <a href="{{ asset('assets/img/masonry-portfolio/design-1.png')}}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-3.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/masonry-portfolio/other-1.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Other 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-3.jpg')}}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <h4>Makalah</h4>
+                                <p>Perlu bantuan untuk buat Makalah, Langsung Order</p>
+                                <a href="{{ asset('assets/img/masonry-portfolio/other-1.png')}}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-4.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/masonry-portfolio/web-2.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 2</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-4.jpg')}}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <h4>Web Tryout</h4>
+                                <p>Menyediakan Fitur Pengerjaan soal, cocok untuk tenaga pengajar.</p>
+                                <a href="{{ asset('assets/img/masonry-portfolio/web-2.png')}}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-5.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/masonry-portfolio/design-2.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Design 2</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-5.jpg')}}" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <h4>Design Banner & Pamflet</h4>
+                                <p>Pembuatan baliho yang siap cetak</p>
+                                <a href="{{ asset('assets/img/masonry-portfolio/design-2.png')}}" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-6.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/masonry-portfolio/other-2.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Other 2</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-6.jpg')}}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <h4>Scan Berkas</h4>
+                                <p>Jasa Scan berkas penting apabila ada kesalahan data</p>
+                                <a href="{{ asset('assets/img/masonry-portfolio/other-2.png')}}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-7.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/masonry-portfolio/web-3.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-7.jpg')}}" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <h4>Web Pengolahan Nilai</h4>
+                                <p>Cocok untuk tenaga pengajar yang kesulitan dalam mengolah nilai siswa.</p>
+                                <a href="{{ asset('assets/img/masonry-portfolio/web-3.png')}}" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-8.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/masonry-portfolio/design-3.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Design 3</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-8.jpg')}}" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <h4>Design Logo</h4>
+                                <p>Membuat Logo untuk brand Anda</p>
+                                <a href="{{ asset('assets/img/masonry-portfolio/design-3.png')}}" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-9.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/masonry-portfolio/other-3.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Other 3</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="{{ asset('assets/img/masonry-portfolio/masonry-portfolio-9.jpg')}}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <h4>Buat Surat Keterangan</h4>
+                                <p>Memerlukan Surat Keterangan atau Ketikan Lainnya, jangan lupa Contact kami</p>
+                                <a href="{{ asset('assets/img/masonry-portfolio/other-3.png')}}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
@@ -447,7 +447,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Services</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>Berikut adalah usaha yang saya kelola yang berupa menyediakan berbagai macam jasa.</p>
             </div><!-- End Section Title -->
 
             <div class="container">
