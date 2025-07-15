@@ -36,8 +36,6 @@ jobs:
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
-    - name: Setting up file storage
-      run: php artisan storage:link
     - name: Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
     - name: Generate key
@@ -60,10 +58,18 @@ jobs:
         password: ${{ secrets.FTP_DEV_PASS }}
         server-dir: /htdocs/portofolio/
         exclude: |
-            **/.git*
-            **/node_modules/**
-            **/vendor/**
-            .env
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/vendor/**
+          **/.phpunit.cache/**
+          **/storage/logs/**
+          **/storage/debugbar/**
+          **/storage/clockwork/**
+          **/storage/framework/cache/data/**
+          .env
+          bootstrap/cache/config.php
+          public/hot
         dangerous-clean-slate: false
           
 
@@ -77,10 +83,18 @@ jobs:
         local-dir: public/
         server-dir: /htdocs/
         exclude: |
-            **/.git*
-            **/node_modules/**
-            **/vendor/**
-            .env
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/vendor/**
+          **/.phpunit.cache/**
+          **/storage/logs/**
+          **/storage/debugbar/**
+          **/storage/clockwork/**
+          **/storage/framework/cache/data/**
+          .env
+          bootstrap/cache/config.php
+          public/hot
             hot
         dangerous-clean-slate: false
 
